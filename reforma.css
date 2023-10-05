@@ -1,0 +1,200 @@
+.box {
+    background-color: white;
+    height: 109px;
+    width: 2000px;
+    margin-top: -610px;
+    margin-left: -10px;
+    position: fixed;
+    z-index: 1;
+    
+   
+
+}
+
+.elementos_header {
+    list-style: none;
+    position: relative;
+    z-index: 2;
+    margin-left: 469px;
+    margin-top: -495px;
+    font-weight: 700;
+    padding-top: 2px;
+    font-family: 'Visby CF';
+}
+
+.elementos_header li {
+    display: inline;
+    margin-right: 33px;
+}
+
+.tienda {
+    color: black;
+}
+
+.quiensomos {
+    color: rgb(58,59,82);
+}
+
+.acerca {
+    color: rgb(58,59,82);
+}
+
+.preguntas {
+    color: rgb(58,59,82);
+}
+
+
+.imagen_principal {
+    margin-top: -200px;
+    height: 800px;
+    width: 1600px;
+    overflow: hidden;
+    
+    margin-left: -10px;
+  
+  
+    
+
+}
+
+
+.imagen_principal {
+    width: 100%; 
+    margin-top: -500px; 
+}
+
+
+.titulo {
+    font-size: 72px;
+    color: white;
+    font-family: 'Visby CF';
+    font-weight: bold;
+    font-style: normal;
+    top: 139px;
+    position: relative;
+    margin-left: 38px;
+    line-height: 1.1;
+  
+}
+
+.pie_de_texto {
+    font-family: 'Visby', sans-serif;
+
+    color: white;
+    margin-left: 42px;
+    margin-top: -204px;
+    font-size: 22px;
+    z-index: 6;
+    
+
+                                                
+}
+
+.h {
+    font-size: 18px;
+    margin-top: -268px;
+    margin-left: 43px;
+    font-family: 'Visby CF';
+    color: white;
+    z-index: 5;
+}
+
+button {
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #9EF01A;
+    color: #004B23;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 240px;
+    margin-left: 38px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 7;
+    
+  }
+  
+  button:hover {
+    background-color: #88ddb0;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #88ddb0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+
+
+  .logo {
+    width: 125px;
+    height: 125px;
+    z-index: 3;
+    position: absolute;
+    margin-top: -86px;
+    margin-left: 15px;
+  }
+
+
+  .search-button{
+    width: 300px;
+    height: 50px;
+    margin: 150px auto;
+  }
+  .container{
+    width: 400px;
+    position: relative;
+  }
+  .container .lupa{
+    position: absolute;
+    margin-left: 28px;
+    margin-top: 27px;
+    color: #FFF;
+    -webkit-transition: 0.3s ease-out;
+            transition: 0.3s ease-out;
+    margin-left: 698px;
+    margin-top: -165px;
+    position: absolute;
+    z-index: 4pie;
+  }
+  #search{
+    width: 50px;
+    height: 50px;
+    background-color: #9EF01A;
+    color: #FFF;
+    border: none;
+    font-size: 0.9em;
+    float: left;
+    padding-left: 70px;
+    -webkit-transition: 0.6s ease-out;
+            transition: 0.6s ease-out;
+    margin-left: 670px;
+    margin-top: -180px;
+    position: fixed;
+    z-index: 3;
+  }
+  /*eventos*/
+  #search:focus, 
+  #search:active{
+    outline:none;
+    width: 200px;
+    padding-right: 20px;
+  }
+  .container:hover #search{
+    width: 230px;
+    background-color:#3299BB;
+  }
+  .container:hover .lupa{
+    color: #424242;
+  }
+  /*placeholder*/
+  ::-webkit-input-placeholder { color: #CCC; }
+  :-moz-placeholder { color: #CCC; }
+  ::-moz-placeholder { color: #CCC; }
+  :-ms-input-placeholder { color: #CCC; }

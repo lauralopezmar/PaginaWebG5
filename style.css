@@ -1,0 +1,131 @@
+
+
+
+
+
+
+.imagen_principal {
+    margin-top: -200px;
+    height: 800px;
+    width: 1600px;
+    overflow: hidden;
+    
+    margin-left: -10px;
+  
+  
+    
+
+}
+
+
+.imagen_principal {
+    width: 100%; 
+    margin-top: -500px; 
+}
+
+
+.titulo {
+    font-size: 72px;
+    color: white;
+    font-family: 'Visby CF';
+    font-weight: bold;
+    font-style: normal;
+    top: 139px;
+    position: relative;
+    margin-left: 38px;
+    line-height: 1.1;
+  
+}
+
+.headerr {
+    height: 109px;
+    width: 2000px;
+    background-color: white;
+    margin-top: -610px;
+    margin-left: -10px;
+    position: absolute;
+
+    z-index: 1;
+    
+}
+
+
+
+.pie_de_texto {
+    font-family: 'Visby', sans-serif;
+
+    color: white;
+    margin-left: 42px;
+    margin-top: -204px;
+    font-size: 22px;
+    z-index: 6;
+    
+
+                                                
+}
+
+.h {
+    font-size: 18px;
+    margin-top: -268px;
+    margin-left: 43px;
+    font-family: 'Visby CF';
+    color: white;
+    z-index: 5;
+}
+
+button {
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #9EF01A;
+    color: #004B23;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 240px;
+    margin-left: 38px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 7;
+    
+  }
+  
+  button:hover {
+    background-color: #88ddb0;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #88ddb0;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+
+  .elementos_header {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -438px;
+    z-index: 2;
+   
+}
+
+.elementos_header li {
+    display: inline; 
+    margin-right: 40px;
+    
+
+    
+   
+}
+
+.elements {
+    z-index: 2 ;
+}
+
+.elementos_header li a {
+    z-index: 10;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Logging Clients</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <form action="./login.php" method="post" enctype="multipart/form-data">
+        <p>
+            <label for="idUser"><b>Usuari</b></label>
+            <input type="text" id="idUser" name="uname" placeholder="Introdueix el teu usuari" autofocus size="50" maxlength="100" required>
+        </p>
+        <p>
+            <label for="idPwd"><b>Contrasenya</b></label>
+            <input type="password" id="idPwd" name="password" placeholder="Introdueix la teva contrasenya" size="10" maxlength="16" value="Hola">
+        </p>
+        <p>
+            <label for="idEmail"><b>Mail</b></label>
+            <input type="email" id="idEmail" name="mail" placeholder="Introdueix el teu correu">
+        </p>
+        <p>
+            <button type="submit">Login</button>
+        </p>
+    </form>
+</body>
+</html>

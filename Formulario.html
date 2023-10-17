@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+     <meta charset="utf-8">
+     <title>Wiki F1</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center><table border="1em"></center>
+            <tr>
+                <th>
+                    <form action="./login.php" method="POST" enctype="multipart/form-data">
+                        <p>
+                            <p>
+                                <label for="idUser"><b>Usuari</b></label>
+                                <input type="text" id="idUser" name="uname" placeholder="Usuari" autofocus size="18" maxlength="21" required>
+                            </p>
+                            <p>
+                                <label for="idPwd"><b>Contrasenya</b></label>
+                                <input type="password" id="idPwd" name="password" placeholder="Contrasenya" size="12" maxlength="16" required>
+                            </p>
+                            <p>
+                                <label for="idEmail"><b>Mail</b></label>
+                                <input type="email" id="idEmail" name="mail" placeholder="Correu electronic" size="20" required>
+                            </p>
+                            <p>
+                                <input value="Nateja el Formulari" type="reset"> <button type="submit">Login</button>
+                            </p>
+                        </p>
+                    </form>
+                </th>
+            </tr>
+        </table>
+    </body>
+</html>

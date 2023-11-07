@@ -1,0 +1,386 @@
+
+
+.container {
+    text-align: center;
+    margin-left: 320px;
+    position: relative;
+    z-index: 1;
+}
+
+.content1,
+.content2,
+.content3 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.imagen1,
+.imagen2,
+.imagen3 {
+    width: 370px;
+    height: 477px;
+    margin-top: 177px;
+    
+}
+
+.content2 {
+    margin-left: 27px; 
+}
+
+
+.content3 {
+    margin-left: 27px;
+}
+
+
+
+
+/* html */
+
+
+header {
+    z-index: 2;
+}
+.logo2 {
+    width: 125px;
+    height: 125px;
+    margin-top: -18px;
+    position: absolute;
+    margin-left: 15px;
+    
+  }
+
+  .elementos_header2 {
+    list-style: none;
+
+    
+    margin-left: 469px;
+    margin-top: 10px;
+    font-weight: 700;
+    padding-top: 16px;
+    font-family: 'Visby CF';
+}
+
+.elementos_header2 li {
+    display: inline;
+    margin-right: 33px;
+}
+
+
+.tienda { 
+    color: black;
+    text-decoration: none;
+}
+
+.quiensomos {
+    color: rgb(58,59,82);
+    text-decoration: none;
+}
+
+.acerca {
+    color: rgb(58,59,82);
+}
+
+.preguntas {
+    color: rgb(58,59,82);
+}
+
+.marco {
+    padding: 55px 1000px;
+    border: 1px solid #E5E5E5;
+    top: 103px;
+    position: absolute;
+    margin-left: -12px;
+    z-index: 2;
+   
+}
+
+
+.tenda {
+    margin-top: 64px;
+    font-size: 24px;
+    font-family: 'Visby CF';
+    margin-left: 27px;
+  
+    
+}
+
+.inici_tenda {
+    margin-top: -3px;
+    margin-left: 29px;
+    font-family: 'Visby', sans-serif;
+    font-size: 13px;
+    position: absolute;
+}
+
+
+
+.dalsy {
+    font-family: 'Visby CF';
+    color: black;
+    font-size: 17px;
+    
+}
+
+
+.precio_dalsy {
+    font-family: 'Visby', sans-serif;
+}
+
+
+.acido_florico {
+    font-family: 'Visby CF';
+    color: black;
+    font-size: 17px;
+    
+}
+
+
+.precio_acido_florico {
+    font-family: 'Visby', sans-serif;
+}
+
+
+
+.Mentholatum {
+    font-family: 'Visby CF';
+    color: black;
+    font-size: 17px;
+    
+}
+
+
+.precio_Mentholatum {
+    font-family: 'Visby', sans-serif;
+}
+
+
+
+
+
+
+
+/* aside */
+
+
+.variedades {
+    margin-top: -655px;
+    font-size: 16px;
+    font-family: 'Visby CF';
+    margin-left: 7px;
+    color: #004B23;
+
+
+}
+
+
+.productos_farmacia_button {
+    margin-left: 321px;
+    margin-top: -40px;
+    position: absolute;
+    border: 2px solid #004B23; 
+    background-color: transparent;  
+    color: #000; 
+    border-radius: 21px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    font-family: sans-serif
+    
+    
+}
+
+
+
+
+/* botones flechas */
+
+
+.button-container {
+    position: relative;
+    width: 50px; 
+    height: 50px; 
+    margin-top: 100px;
+}
+
+.hidden-button {
+    
+    position: absolute;
+    margin-top: 50px;
+    width: 50px; 
+    height: 50px; 
+    opacity: 1;
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflecha.png') center/contain no-repeat; 
+    background-size: 60%; 
+    background-color: white; 
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:485px;
+    margin-top: 370px;
+    z-index: 10;
+    cursor: pointer;
+    
+    
+}
+
+.hidden-button:hover {
+    opacity: 1;
+    transform: translateY(10px); 
+}
+
+#click-button {
+    visibility: hidden;
+}
+
+
+
+
+.hidden-button {
+
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflecha.png') center/contain no-repeat;
+    background-size: 60%;
+    background-color: white; 
+   
+}
+
+.hidden-button:hover {
+    opacity: 1;
+    transform: translateY(10px);
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflech5.png') center/contain no-repeat, #28442c;
+    background-size: 60%;
+   
+}
+
+
+
+/* segunda flecha ------------------------------------------------------- */
+
+
+.button-container1 {
+    position: relative;
+    width: 50px; 
+    height: 50px; 
+    margin-top: 100px;
+}
+
+.hidden-button1 {
+    
+    position: absolute;
+    margin-top: 50px;
+    width: 50px; 
+    height: 50px; 
+    opacity: 1;
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflecha.png') center/contain no-repeat; 
+    background-size: 60%; 
+    background-color: white; 
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:885px;
+    margin-top: 220px;
+    z-index: 10;
+    cursor: pointer;
+    
+    
+}
+
+.hidden-button1:hover {
+    opacity: 1; 
+    transform: translateY(10px); 
+}
+
+#click-button1 {
+    visibility: hidden;
+}
+
+
+
+
+.hidden-button1 {
+ 
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflecha.png') center/contain no-repeat; 
+    background-size: 60%;
+    background-color: white; 
+    
+}
+
+.hidden-button1:hover {
+    opacity: 1;
+    transform: translateY(10px);
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflech5.png') center/contain no-repeat, #28442c; 
+    background-size: 60%;
+    /* ... otros estilos ... */
+}
+
+
+
+/* tercera flecha ------------------------------------------------------- */
+
+
+.button-container2 {
+    position: relative;
+    width: 50px; 
+    height: 50px; 
+    margin-top: 100px;
+}
+
+.hidden-button2 {
+    
+    position: relative;
+    margin-top: 50px;
+    width: 50px; 
+    height: 50px; 
+    opacity: 1;
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflecha.png') center/contain no-repeat; 
+    background-size: 60%; 
+    background-color: white; 
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: opacity 0.5s ease, transform 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:1285px;
+    margin-top: 170px;
+    z-index: 10;
+    cursor: pointer;
+    
+    
+}
+
+.hidden-button2:hover {
+    opacity: 1; 
+    transform: translateY(10px); 
+}
+
+#click-button2 {
+    visibility: hidden;
+}
+
+
+
+
+.hidden-button2 {
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflecha.png') center/contain no-repeat; 
+    background-size: 60%;
+    background-color: white; 
+    
+}
+
+.hidden-button2:hover {
+    opacity: 1;
+    transform: translateY(10px);
+    background: url('C:\\Users\\Asus\\Downloads\\iamgendeflech5.png') center/contain no-repeat, #28442c;
+    background-size: 60%;
+   
+}

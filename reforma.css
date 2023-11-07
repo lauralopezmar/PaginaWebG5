@@ -33,6 +33,7 @@
 
 .quiensomos {
     color: rgb(58,59,82);
+    text-decoration: none;
 }
 
 .acerca {
@@ -179,22 +180,29 @@ button {
     position: fixed;
     z-index: 3;
   }
-  /*eventos*/
-  #search:focus, 
-  #search:active{
-    outline:none;
+
+  #search {
+    outline: none;
     width: 200px;
-    padding-right: 20px;
+    padding-right: 2px;
   }
-  .container:hover #search{
+  
+  .container:hover #search {
     width: 230px;
-    background-color:#3299BB;
+    background-color: #3299BB;
   }
-  .container:hover .lupa{
-    color: #424242;
+  
+  .container #search {
+    background-color: #9EF01A;
   }
-  /*placeholder*/
-  ::-webkit-input-placeholder { color: #CCC; }
-  :-moz-placeholder { color: #CCC; }
-  ::-moz-placeholder { color: #CCC; }
-  :-ms-input-placeholder { color: #CCC; }
+  
+  .lupa {
+    color: #FFF; 
+    z-index: 10;
+  }
+  
+
+  #search::placeholder {
+    color: white;
+  }
+  
